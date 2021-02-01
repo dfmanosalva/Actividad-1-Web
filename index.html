@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>David Manosalva</title>
+    </head>
+    <body>
+        <header>
+            <section>
+                <h1>David Manosalva's webpage</h1>
+                <img
+                    src="./Assets/Portrait.jpeg"
+                    alt="Portrait image"
+                    height="300px"
+                />
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="#welcome">Welcome</a></li>
+                    <li><a href="#biography">Biography</a></li>
+                    <li><a href="#academics">Academic Data</a></li>
+                    <li><a href="#interests">Interests</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="welcome">
+                <h2>Welcome to my webpage!</h2>
+                <p>Here you can learn a little more about me 😃</p>
+            </section>
+            <section id="biography">
+                <table border="1">
+                    <caption>
+                        <strong>Biography</strong>
+                    </caption>
+                    <tr>
+                        <th scope="col">Basic information</th>
+                        <th scope="col">Answer 1</th>
+                        <th scope="col">Answer 2</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">Nationality</th>
+                        <td>Colombian</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Parents</th>
+                        <td>Luis Manosalva</td>
+                        <td>Martha Salgado</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Living in</th>
+                        <td>Bogotá</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">DOB</th>
+                        <td></td>
+                        <td>June 19, 2000</td>
+                    </tr>
+                </table>
+            </section>
+            <section id="academics"></section>
+            <h2>Academic Information</h2>
+            <ul>
+                <li><strong>Previous:</strong></li>
+                <ol>
+                    <li>
+                        Primary and High School: Gimnasio Campestre San Rafael
+                    </li>
+                </ol>
+                <li><strong>Currently:</strong></li>
+                <ol>
+                    <li>Los Andes University: Computer Science</li>
+                </ol>
+            </ul>
+            <section id="interests">
+                <h2>Interests</h2>
+                <article>
+                    <h3>Videos</h3>
+                    <iframe
+                        width="800"
+                        height="500"
+                        src="https://www.youtube.com/embed/LJ2jTR1NQj8"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                    ></iframe>
+                    <br />
+                    <iframe
+                        width="800"
+                        height="500"
+                        src="https://www.youtube.com/embed/D_Mco-_n6wE"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                    ></iframe>
+                    <br />
+                    <iframe
+                        width="800"
+                        height="500"
+                        src="https://www.youtube-nocookie.com/embed/cuO2wNDkxC0"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                    ></iframe>
+                </article>
+                <article>
+                    <h3>Links</h3>
+                    <a href="https://www.formula1.com/">Formula 1 Homepage</a>
+                    &nbsp;
+                    <a href="https://f1esports.com/">Formula 1 Esports</a>
+                    &nbsp;
+                    <a href="https://rules.wfdf.sport/">
+                        2021 - 2024 Ultimate Frisbee Rules
+                    </a>
+                </article>
+                <article>
+                    <h3>Images</h3>
+                    <img src="./Assets/Samoyed.jpg" alt="Samoyed Puppy"/>
+                    <br>
+                    <img src="./Assets/GSD.jpg" alt="German Shepard Puppy" height="500" />
+                </article>
+            </section>
+            <section id="contact">
+                <h2>Contact us</h2>
+                <form action="">
+                    <label for="name">
+                        <span>¿What is your name?</span> &nbsp;
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Tony"
+                            autocomplete="name"
+                            required
+                        />
+                    </label>
+                    <br />
+                    <label for="email">
+                        <span>¿What is your email?</span> &nbsp;
+                        <input
+                            type="email"
+                            id="name"
+                            name="email"
+                            placeholder="name@example.com"
+                            autocomplete="email"
+                            required
+                        />
+                    </label>
+                    <br />
+                    <label for="phone">
+                        <span>¿What is your phone number?</span> &nbsp;
+                        <input
+                            type="text"
+                            id="phone"
+                            placeholder="37777777"
+                            name="phone"
+                            autocomplete="tel"
+                            required
+                        />
+                    </label>
+                    <br />
+                    <label for="country">
+                        <span>¿In which country are you located?</span> &nbsp;
+                        <input
+                            name="country"
+                            type="text"
+                            id="country"
+                            placeholder="Colombia"
+                            autocomplete="country-name"
+                        />
+                    </label>
+                    <br />
+                    <input type="submit" />
+                </form>
+            </section>
+        </main>
+        <footer>
+            <span>Contacto:</span>
+            <br>
+            <a href="mailto:df.manosalva@uniandes.edu.co">Correo Uniandes</a> &nbsp; <a href="https://www.linkedin.com/in/david-fernando-manosalva-59a9ba134/">LinkedIn</a>
+            <p>© 2021 David Manosalva </p>
+        </footer>
+    </body>
+</html>
