@@ -12,7 +12,7 @@
                 <img
                     src="./Assets/Portrait.jpeg"
                     alt="Portrait image"
-                    height="300px"
+                    height="300"
                 />
             </section>
             <nav>
@@ -31,9 +31,10 @@
                 <p>Here you can learn a little more about me 😃</p>
             </section>
             <section id="biography">
-                <table border="1">
+                <h2>My biography</h2>
+                <table>
                     <caption>
-                        <strong>Biography</strong>
+                        <strong>Some info</strong>
                     </caption>
                     <tr>
                         <th scope="col">Basic information</th>
@@ -62,29 +63,35 @@
                     </tr>
                 </table>
             </section>
-            <section id="academics"></section>
-            <h2>Academic Information</h2>
-            <ul>
-                <li><strong>Previous:</strong></li>
-                <ol>
+            <section id="academics">
+                <h2>Academic Information</h2>
+                <ul>
+                    <li><strong>Previous:</strong></li>
                     <li>
-                        Primary and High School: Gimnasio Campestre San Rafael
+                        <ol>
+                            <li>
+                                Primary and High School: Gimnasio Campestre San
+                                Rafael
+                            </li>
+                        </ol>
                     </li>
-                </ol>
-                <li><strong>Currently:</strong></li>
-                <ol>
-                    <li>Los Andes University: Computer Science</li>
-                </ol>
-            </ul>
+                    <li><strong>Currently:</strong></li>
+                    <li>
+                        <ol>
+                            <li>Los Andes University: Computer Science</li>
+                        </ol>
+                    </li>
+                </ul>
+            </section>
             <section id="interests">
                 <h2>Interests</h2>
                 <article>
                     <h3>Videos</h3>
                     <iframe
                         width="800"
+                        title="Lando Norris' funny birthday surprise!"
                         height="500"
                         src="https://www.youtube.com/embed/LJ2jTR1NQj8"
-                        frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen
                     ></iframe>
@@ -92,8 +99,8 @@
                     <iframe
                         width="800"
                         height="500"
+                        title="Top 20 F1 Team Radio Moments of 2020!"
                         src="https://www.youtube.com/embed/D_Mco-_n6wE"
-                        frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen
                     ></iframe>
@@ -101,8 +108,8 @@
                     <iframe
                         width="800"
                         height="500"
+                        title="Funniest F1 Moments Of 2020!"
                         src="https://www.youtube-nocookie.com/embed/cuO2wNDkxC0"
-                        frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen
                     ></iframe>
@@ -119,14 +126,18 @@
                 </article>
                 <article>
                     <h3>Images</h3>
-                    <img src="./Assets/Samoyed.jpg" alt="Samoyed Puppy"/>
-                    <br>
-                    <img src="./Assets/GSD.jpg" alt="German Shepard Puppy" height="500" />
+                    <img src="./Assets/Samoyed.jpg" alt="Samoyed Puppy" />
+                    <br />
+                    <img
+                        src="./Assets/GSD.jpg"
+                        alt="German Shepard Puppy"
+                        height="500"
+                    />
                 </article>
             </section>
             <section id="contact">
                 <h2>Contact us</h2>
-                <form action="">
+                <form>
                     <label for="name">
                         <span>¿What is your name?</span> &nbsp;
                         <input
@@ -143,7 +154,7 @@
                         <span>¿What is your email?</span> &nbsp;
                         <input
                             type="email"
-                            id="name"
+                            id="email"
                             name="email"
                             placeholder="name@example.com"
                             autocomplete="email"
@@ -179,10 +190,17 @@
             </section>
         </main>
         <footer>
-            <span>Contacto:</span>
-            <br>
-            <a href="mailto:df.manosalva@uniandes.edu.co">Correo Uniandes</a> &nbsp; <a href="https://www.linkedin.com/in/david-fernando-manosalva-59a9ba134/">LinkedIn</a>
-            <p>© 2021 David Manosalva </p>
+            <span>Contact:</span>
+            <br />
+            <a href="mailto:df.manosalva@uniandes.edu.co" target="_blank"
+                >Uniandes email</a
+            >
+            &nbsp;
+            <a
+                href="https://www.linkedin.com/in/david-fernando-manosalva-59a9ba134/"
+                >LinkedIn</a
+            >
+            <p>© 2021 David Manosalva</p>
         </footer>
     </body>
 </html>
